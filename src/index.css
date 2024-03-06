@@ -5,9 +5,126 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+p {
+  font-size: calc(12px + 0.5vw);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a:link {text-decoration: none;}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+[data-pokemon="charmander"] {
+  background-color: #FFD67C;
+
+  header {
+    background-color: #FF9442;
+  }
+
+  header p {
+    color: #184A31;
+    transition-duration: 0.4s;
+  }
+
+  header p:hover{
+    color:#FFFFFF;
+  }
+
+  p, .titulo {
+    color: #E83900;
+  }
+
+  .contatosFooter {
+    background-color: #FF9442;
+  }
+}
+
+[data-pokemon="pikachu"] {
+  background-color: #F6E653;
+  
+  header {
+    background-color: #302B27;
+  }
+
+  header p {
+    color: #F6E653;
+    transition-duration: 0.4s;
+  }
+
+  header p:hover, .titulo {
+    color:#E65A41;
+  }
+
+  p {
+    color: #9D5101;
+  }
+
+  .contatosFooter {
+    background-color: #9D5101;
+  }
+}
+
+[data-pokemon="bulbasaur"] {
+  background-color: #8ECEAC;
+
+  header {
+    background-color: #73C523;
+  }
+
+  header p {
+    color: #377755;
+    transition-duration: 0.4s;
+  }
+
+  header p:hover{
+    color:#DE4B43;
+  }
+
+  p, .titulo {
+    color: #377755;
+  }
+
+  .contatosFooter {
+    background-color: #377755;
+  }
+
+}
+
+[data-pokemon="squirtle"] {
+  background-color: #FFF47E;
+
+  header {
+    background-color: #93C3D9;
+  }
+
+  header p {
+    color: #A16B2F;
+    transition-duration: 0.4s;
+  }
+
+  header p:hover{
+    color:#FFFFFF;
+  }
+
+  p, .titulo {
+    color: #A16B2F;
+  }
+
+  .contatosFooter {
+    background-color: #A16B2F;
+  }
+
 }

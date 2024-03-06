@@ -1,0 +1,25 @@
+[data-pokemon="charmander"] {
+    a, a:-webkit-any-link{
+        stroke: #E83900;
+     }
+}
+  
+[data-pokemon="pikachu"] {  
+    a, a:-webkit-any-link{
+        stroke: #E65A41;
+     }
+}
+  
+[data-pokemon="bulbasaur"] {
+    a, a:-webkit-any-link{
+        stroke: #377755;
+     }
+}
+
+  
+[data-pokemon="squirtle"] {   
+    a, a:-webkit-any-link{
+        stroke: #A16B2F;
+     }
+}
+

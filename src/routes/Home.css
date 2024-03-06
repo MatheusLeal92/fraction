@@ -1,0 +1,19 @@
+.Home {
+  background-image: url("../imagens/grass-wallpaper.jpg");
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inicial-home img{
+  border: solid 2px #ffffff;
+  margin: 1vw 1vh;
+  transition-duration: 0.5s;
+}
+
+.inicial-home :hover {
+  transform: scale(1.1);
+}
+
